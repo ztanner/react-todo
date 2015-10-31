@@ -1,6 +1,5 @@
 .idea/*
 *.iml
 node_modules/*
-src/*
 style.css
 main.js
