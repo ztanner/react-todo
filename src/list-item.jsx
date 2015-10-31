@@ -54,7 +54,6 @@ module.exports = React.createClass({
   handleDoneChange: function(event) {
     var update = {done: event.target.checked};
     this.setState(update);
-    console.log("!!!", update);
     this.fb.update(update);
   },
   handleDelete: function() {
